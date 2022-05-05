@@ -17,3 +17,7 @@ var chart = new Chart(canvas, ...);
 new ChartHighRes(chart, canvas);
 </script>
 ```
+
+## Licence
+
+Please consider this repository public domain.
