@@ -1,7 +1,7 @@
 function ChartHighRes(chart, canvas) {
     // See https://stackoverflow.com/a/50300880/336311
     var button = document.createElement("img");
-    button.src = "../layout/button.download.0.svg";
+    button.src = "button.download.0.svg";
     button.setAttribute("alt", "⇓");
     button.style.width = "30px";
     button.style.display = "block";
@@ -179,11 +179,11 @@ function ChartHighRes(chart, canvas) {
     }
 
     function onLinkOver() {
-        button.src = "../layout/button.download.1.svg";
+        button.src = "button.download.1.svg";
     }
 
     function onLinkOut(evt) {
-        button.src = "../layout/button.download.0.svg";
+        button.src = "button.download.0.svg";
         onMouseOut(evt);
     }
 
